@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
-    <script src="./script.js"></script>
     <style>
         @font-face {
             font-family: 'Segoe UI';
@@ -38,8 +37,7 @@
             position:absolute;
             border: .78vh solid white;
             border-radius: 50%;
-            /* background-color: #BABEFF; */
-            background-image: '';
+            background-color: #BABEFF;
             height: 20.98vh;
             width: 20.98vh;
             top:14.74vh;
@@ -55,7 +53,7 @@
             top:38vh;
             left:50%;
             right:50%;
-            font-size: 1.34vh;
+            font-size: 2.34vh;
 
         }
         .cir{
@@ -64,7 +62,7 @@
             color: white;
             transform:translate(-50%);
             font-family: 'Inter', sans-serif;
-            text-align: left;
+            text-align: center;
             display: flex;
             align-items: center;
             justify-content:  center ;
@@ -73,11 +71,10 @@
             position:absolute;
             border: .58vh solid white;
             border-radius: 50%;
-            /* background-color: #BABEFF; */
+            background-color: #BABEFF;
             height: 15.625vh;
             width: 15.625vh;
             top:21.679vh;
-            background-image: '';
             left:27%;
             transform:translate(-50%);
         }
@@ -87,19 +84,18 @@
             height: 3.125vh;
             top:39.5742vh;
             left:27%;
-            font-size: 1.2vh;
+            font-size: 2vh;
         }
         .sr1{
             position: absolute;
-            font-size: 106%;
-            left: 69%;
+            font-size: 2vh;
+            left: 65%;
         }
         .third{
             position:absolute;
             border: .58vh solid white;
-            background-image: '';
             border-radius: 50%;
-            /* background-color: #BABEFF; */
+            background-color: #BABEFF;
             height: 15.625vh;
             width: 15.625vh;
             top:21.679vh;
@@ -136,8 +132,7 @@
             position:absolute;
             border: .27vh solid white;
             border-radius: 50%;
-            /* background-color: #BABEFF; */
-            background-image: '';
+            background-color: #BABEFF;
             transform:translate(-50%);
             height: 7.26vh;
             width: 7.26vh;
@@ -202,7 +197,6 @@
         .name2{
             position: absolute;
             left: 13%;
-            font-size: 93%;
         }
         
     </style>
@@ -216,23 +210,23 @@
             <div class="d a">1</div>
             <div class="d b">2</div>
             <div class="d c">3</div>
-            <div class="first" id="rank1"></div>
+            <div class="first"></div>
             <div class="f cir">
                 <div class="name1" style="position: absolute; left: 15%;" id="rank1name">Amanda</div> 
-                <div class="sr2" style="position: absolute; left: 73%; font-size: 2.5vh;" id="rank1score">764 </div>
-                <div class="dot" style="left: 68%;"></div>
+                <div class="sr2" style="position: absolute; left: 64%;" id="rank1score">764 </div>
+                <div class="dot"></div>
             </div>
             
 
-            <div class="second" id="rank2"></div>
+            <div class="second"></div>
             <div class="s cir">
-                <div class="name2" id="rank2name" style="font-size: 1.2vh; left: 17%;">Jeremy</div>
-                <div class="dot" style="left:63% "></div>
+                <div class="name2" id="rank2name">Jeremy</div>
+                <div class="dot"></div>
                 <div class="sr1" id="rank2score">672</div>
             </div>
-            <div class="third" id="rank3"></div>
-            <div class="t cir" >
-                <div class="name2" style="left:11% ; font-size: 56%;" id="rank3name">Jefferey</div>
+            <div class="third"></div>
+            <div class="t cir">
+                <div class="name2" style="left:11% ;" id="rank3name">Jefferey</div>
                 <div class="sr1" id="rank3score">542</div>
                 <div class="dot" style="left: 61%;"></div>
             </div>
@@ -241,34 +235,34 @@
         <div class="num">4</div>
         <div class="name" id="rank4name">Joe</div>
         <div class="score" id="rank4score">445</div>
-        <div class="circle" id="rank4"></div>
+        <div class="circle"></div>
     </div>
     <div class="rank">
         <div class="num">5</div>
         <div class="name" id="rank5name">Jenny</div>
         <div class="score" id="rank5score">438</div>
-        <div class="circle" id="rank5"></div>
+        <div class="circle"></div>
         
     </div>
     <div class="rank">
         <div class="num">6</div>
         <div class="score" id="rank6score">432</div>
         <div class="name" id="rank6name">Josh</div>
-        <div class="circle " id="rank6"></div>
+        <div class="circle"></div>
         
     </div>
     <div class="rank">
         <div class="num">7</div>
         <div class="score" id="rank7score">321</div>
         <div class="name" id="rank7name">Stella</div>
-        <div class="circle" id="rank7"></div>
+        <div class="circle"></div>
         
     </div>
     <div class="rank">
         <div class="num">8</div>
-        <div class="circle" id="rank8"></div>
         <div class="score" id="rank8score" id="rank8name">300</div>
-        <div class="name" id="rank8name">Sally</div>
+        <div class="name">Sally</div>
+        <div class="circle"></div>
         
     </div>
     </body>
